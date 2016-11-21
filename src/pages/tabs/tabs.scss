@@ -1,0 +1,60 @@
+$theme-background: #0c1d35;
+
+tabs-page{
+   .front_page{
+      background:$theme-background;
+   }  
+   
+   .logo_image{
+        margin: 0 auto;
+    width: 90px;
+    height: 94px;
+    margin-top: 114px;
+   }  
+   
+   .logo_text{
+            margin: 0 auto;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: serif;
+    font-size: 26px;
+   }  
+   
+   .logo_subtext{
+               margin: 0 auto;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: serif;
+    line-height: 24px;
+   }  
+   
+   .get_started_button{
+             margin: 0 auto !important;
+    margin-top: 90px !important;
+    background: #19bf53 !important;
+    font-family: serif !important;
+   }  
+   
+   .footer div{
+             background: #1a3c68;
+             border-color: #1a3c68;
+   }  
+   
+   .footer_text{
+           margin: 0 auto;
+    color: #fff;
+    font-size: 17px;
+    font-family: serif;
+   }  
+   
+   .footer_text a{
+           text-decoration:none;
+		   color:#ffffff; 
+		   font-weight: bold;
+		   margin-left: 7px;
+    }
+}

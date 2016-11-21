@@ -1,0 +1,32 @@
+page-finish{
+   .front_page{
+      background:$theme-background;
+   }  
+   
+   .logo_image{
+        margin: 0 auto;
+    width: 90px;
+    height: 94px;
+    margin-top: 114px;
+   }  
+
+   .logo_text{
+            margin: 0 auto;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: serif;
+    font-size: 26px;
+   }   
+   
+    .logo_subtext{
+               margin: 0 auto;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: serif;
+    line-height: 24px;
+   }  
+}

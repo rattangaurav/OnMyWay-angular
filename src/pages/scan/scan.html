@@ -1,0 +1,26 @@
+<ion-content class="front_page">
+<ion-grid>
+  <ion-row>
+      <img class="logo_image" src="assets/images/onmyway_logo.png">
+  </ion-row>
+  <ion-row>
+      <h3 class="logo_text">OnMyWay.com</h3>	  
+  </ion-row>
+  <ion-row>
+     <p class="logo_subtext">Scan your driver's license</p>
+  </ion-row> 
+</ion-grid>  
+
+<ion-grid>
+  <ion-row>
+    <ion-col width-50><button (click)="goBack()" ion-button block>Back</button></ion-col>
+	<ion-col width-50><button (click)="scanLicense()" class="signup_next" ion-button block>Scan</button></ion-col>
+  </ion-row>
+</ion-grid>  
+     
+<ion-grid>
+  <ion-row>  
+       <button (click)="finish()" ion-button block>Finish</button>
+  </ion-row>
+</ion-grid>  
+</ion-content>  
